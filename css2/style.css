@@ -1,0 +1,157 @@
+body{
+    background-color: white;
+    text-align: center;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    font-size: 200%;
+}
+
+h1{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.0em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+}
+
+h2{
+    font-family: 'Merriweather', serif;
+    color: #558776;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+a{
+    color: #11999E;
+    text-decoration: none;
+    color: antiquewhite;
+    display: inline-block;
+    padding: 0 50px;
+}
+
+a:hover{
+    color: #D6C481;
+}
+
+p{
+    font-size:large;
+}
+.top{
+    padding-top: 100px;
+    background-color: #E0FFFB;
+}
+
+.mid{
+    background-color: #81CBC8;
+    padding-top: 50px;
+}
+ 
+.bottom{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #4AA6B5;   
+} 
+
+.pro{
+    text-decoration: underline;
+    color: #66BFBF;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 600px;
+}
+
+.top-cloud{
+    position: absolute;
+    top: 50px;
+    right: 600px;
+}
+
+.profile{
+    position: relative;
+    margin: 0 auto;
+    height: 30%;
+    width: 30%;
+    border-radius: 100%;
+}
+
+.name{
+    font-size: 5.625rem;
+    line-height: 200%;
+}
+
+.prog{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #66BFBF;
+}
+
+
+.skill-row{
+    text-align: left;
+    margin: 100px auto 100px auto;
+    width: 50%;
+}
+
+.skill-1{
+    text-align: left;
+}
+
+.skill-Lheight{
+    line-height: 200%;
+}
+
+.computer{
+    margin-right: 30px;
+    float: left;
+    width: 25%;
+    
+}
+
+.chillie{
+    width: 25%;
+    float: right; /*Clear stops floating*/
+    margin-left: 30px;
+}
+
+hr{
+    border-style: dotted;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    width: 10%;
+    border-width: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #D6C481;
+}
+
+.cpyright{
+    color:antiquewhite;
+    padding-top: 20px;
+}
+
+.btn{
+    background-color: #D6C481; /* Green */
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+
+.btn:hover{
+    background-color: #eb8b50;
+}
